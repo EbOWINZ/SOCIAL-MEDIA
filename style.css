@@ -1,0 +1,74 @@
+body{
+    background-color: cadetblue;
+}
+.sectionsm{
+    display: inline;
+    text-align: center;
+    
+}
+.socialmedia{
+    width: 60px;
+    border-radius: 10px;
+    background-color:darkgray;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+}
+.socialmedia .icon span{
+    text-align: center;
+}
+.socialmedia .icon span i{
+    font-size: 40px;
+    line-height: 60px;
+}
+.icon.facebook{
+    color: blue;
+}
+.icon.twitter{
+    color: darkturquoise;
+}
+.icon.instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon.youtube{
+    color: red;
+}
+
+.socialmedia div:hover  {
+    background-color: white;
+    transform: scale(1.2) translateX(0.7em);
+    border-radius: 10px;
+}
+.icon.facebook:hover{
+    box-shadow: 2px 2px 5px blue;
+    background-color: blue;
+    color: white;
+}
+.icon.twitter:hover{
+    box-shadow: 2px 2px 5px darkturquoise;
+    background-color: darkturquoise;
+    color: white;
+}
+
+.icon.instagram:hover{
+    box-shadow: 2px 2px 5px #833AB4;
+    background: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    -webkit-text-fill-color: white;
+}
+.icon.github:hover{
+    box-shadow: 2px 2px 5px black;
+    background-color: black;
+    color: white;
+}
+.icon.youtube:hover{
+    box-shadow: 2px 2px 5px red;
+    background-color: red;
+    color: white;
+}
+
+
